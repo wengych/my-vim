@@ -43,3 +43,4 @@ autocmd VimEnter * wincmd p
 map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
+autocmd BufEnter *.pc set filetype=esqlc

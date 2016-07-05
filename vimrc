@@ -31,7 +31,7 @@ set incsearch
 syntax on
 filetype on
 filetype plugin on
-filetype indent on
+" filetype indent on
 
 colorscheme slate
 
